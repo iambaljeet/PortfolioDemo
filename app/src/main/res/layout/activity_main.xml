@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.activity.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/girl_portrait"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorSemitransparentBlack80"/>
+
+    <View
+        android:id="@+id/view_top_circle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent=".45"
+        app:layout_constraintDimensionRatio="2:1"
+        android:background="@drawable/ic_welcome_top_shape"
+        android:backgroundTint="@color/colorPrimarySemitransparent70"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:id="@+id/view_right_circle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent=".3"
+        app:layout_constraintDimensionRatio="1:1.8"
+        android:background="@drawable/ic_welcome_right_shape"
+        android:backgroundTint="@color/colorRedSemitransparent70"
+        app:layout_constraintVertical_bias=".15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my official portfolio app"
+        android:textSize="26sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintTop_toBottomOf="@+id/view_top_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_right_circle"
+        app:layout_constraintBottom_toTopOf="@+id/text_view_sub_title"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_sub_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="I am a designer and you can know more about me by my work itself"
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_right_circle"
+        app:layout_constraintBottom_toTopOf="@+id/button_get_started"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_get_started"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent=".5"
+        android:text="Get Started"
+        app:cornerRadius="5dp"
+        android:textColor="@color/colorWhite"
+        app:backgroundTint="@color/colorButton"
+        android:layout_margin="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:transitionName="shared_element_to_dashboard"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
