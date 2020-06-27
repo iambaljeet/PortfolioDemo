@@ -5,7 +5,7 @@
 ![](https://github.com/iambaljeet/PortfolioDemo/blob/master/art/banner_art.jpg)
 
 ## Demo
-1[](https://github.com/iambaljeet/PortfolioDemo/blob/master/art/demo_webp.webp)
+![](https://github.com/iambaljeet/PortfolioDemo/blob/master/art/demo_webp.webp)
 
 [![GitHub license](https://img.shields.io/github/license/iambaljeet/PortfolioDemo)](LICENSE)
 ![Github Followers](https://img.shields.io/github/followers/iambaljeet?style=social)
