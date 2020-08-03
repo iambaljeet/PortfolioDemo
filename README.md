@@ -13,7 +13,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/iambaljeet/PortfolioDemo)
 ![GitHub watchers](https://img.shields.io/github/watchers/iambaljeet/PortfolioDemo?style=social)
 ![Tweet](	https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fiambaljeet%2FPortfolioDemo)
-![Twitter Follow](https://img.shields.io/twitter/follow/baljeet_dev?label=Follow&style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/yetanotherdev_?label=Follow&style=social)
 
 ## About
 This is a demo showcasing a basic UI for building your first portfolio app.
